@@ -1,7 +1,4 @@
-DROP TABLE IF EXISTS students;
-DROP TABLE IF EXISTS course;
-DROP TABLE IF EXISTS projects;
-DROP TABLE IF EXISTS review;
+DROP TABLE IF EXISTS students, review, course, projects CASCADE;
 
 
 CREATE TABLE students(
@@ -30,7 +27,8 @@ CREATE TABLE projects(
 	description TEXT,
 	project_type VARCHAR(20),
 	is_group BOOLEAN,
-	course_id INT
+	course_id INT,
+	backgr_mat VARCHAR(200)
 );
 
 
@@ -40,7 +38,9 @@ CREATE TABLE review(
 	review_result INT,
 	review_partner VARCHAR(50),
         critique VARCHAR(200),
-	done BOOLEAN	
+	done BOOLEAN,
+	review_date DATE,
+	course_id INT	
 );
 
 

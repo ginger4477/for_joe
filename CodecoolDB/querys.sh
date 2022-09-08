@@ -61,3 +61,33 @@ echo "-Students wt course & pojects-"
 echo "------------------------------"
 echo "                              "
 psql -f task-12.sql codecool
+echo "---------------------------------"
+echo "-------------TASK 13-------------"
+echo "-Students wt prject in Chef Club-"
+echo "---------------------------------"
+echo "                                 "
+psql -f task-13.sql codecool
+echo "---------------------------------"
+echo "-------------TASK 14-------------"
+echo "Students' project in ShoppingClub"
+echo "---------------------------------"
+echo "                                 "
+psql -f task-14.sql codecool
+echo "---------------------------------"
+echo "-------------TASK 15-------------"
+echo "-Students' prject in Scientists--"
+echo "---------------------------------"
+echo "                                 "
+psql -f task-15.sql codecool
+echo "---------------------------------"
+echo "-------------TASK 16-------------"
+echo "---Students' with best result----"
+echo "---------------------------------"
+echo "                                 "
+psql -f task-16.sql codecool
+echo "---------------------------------"
+echo "-------------TASK 17-------------"
+echo "---Course Results + AVG result---"
+echo "---------------------------------"
+echo "                                 "
+psql -f task-17.sql codecool
